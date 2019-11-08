@@ -23,14 +23,17 @@
 </p>
 
 <p align="center">
-  <a href="#-sobre-os-desafios">Sobre os desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-desafios">Sobre os desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
 
-## 🚀 Sobre os desafios
+## 🚀 Desafios
 
-...
+- [Primeiros passos com JavaScript](01-1%20Primeiros-passos-com-js.md)
+- Lidando com objetos e vetores
+- Funções e estruturas de repetição
+- Aplicação: Operações bancárias
 
 ## 📅 Entrega
 
