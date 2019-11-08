@@ -40,11 +40,11 @@ function checaSeUsuarioUsaCSS(usuario) {
 Percorra o array de usuários e, para cada um, verifique se o mesmo trabalha com CSS utilizando a função construída acima, se SIM, imprima em tela as informações do usuário:
 
 ```js
-for (usuario of usuarios) {
-  const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuario)
+for (let i = 0; i < usuarios.length; i++) {
+  const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuario[i])
 
   if(usuarioTrabalhaComCSS) {
-    console.log(`O usuário ${usuario.nome} trabalha com CSS`)
+    console.log(`O usuário ${usuario[i].nome} trabalha com CSS`)
   }
 }
 ```
