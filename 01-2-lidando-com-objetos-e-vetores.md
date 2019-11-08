@@ -21,7 +21,7 @@ const usuario = {
   empresa: {
     nome: 'Rocketseat'
   },
-};
+}
 ```
 
 Imprima em tela utilizando `console.log` o nome da empresa e seu endereço no seguinte formato:
@@ -58,7 +58,7 @@ const objeto = {
     { nome: 'C++', especialidade: 'Desktop' }, 
     { nome: 'JavaScript', especialidade: 'Web/Mobile' }
   ]
-};
+}
 ```
 
 Imprima em tela o nome e especialidade da primeira tecnologia que o usuário utiliza no seguinte formato:
