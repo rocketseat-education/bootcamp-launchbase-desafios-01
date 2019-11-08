@@ -30,8 +30,8 @@
 
 ## 🚀 Desafios
 
-- [Primeiros passos com JavaScript](01-1%20Primeiros-passos-com-js.md)
-- Lidando com objetos e vetores
+- [Primeiros passos com JavaScript](01-1-primeiros-passos-com-js.md)
+- [Lidando com objetos e vetores](01-2-lidando-com-objetos-e-vetores.md)
 - Funções e estruturas de repetição
 - Aplicação: Operações bancárias
 
