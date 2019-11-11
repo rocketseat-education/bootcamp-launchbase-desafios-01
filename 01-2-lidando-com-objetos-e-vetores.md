@@ -40,7 +40,7 @@ console.log(`O nome do usuário é ${usuario.nome}`);
 
 Crie um programa com um objeto para armazenar dados de um programador como `nome`, `idade` e `tecnologias` que trabalha. 
 
-Um programadores pode trabalhar com várias tecnologias, por isso armazene essas tecnologias em um array. 
+Um programador pode trabalhar com várias tecnologias, por isso armazene essas tecnologias em um array. 
 
 As tecnologias também devem ser objetos contendo `nome` e `especialidade`, use as tecnologias abaixo:
 
