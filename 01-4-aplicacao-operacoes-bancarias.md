@@ -31,6 +31,8 @@ Quanto uma transação for do tipo `credit` ela deve também somar o valor do cr
 
 Se for uma transação do tipo `debit` ela deve subtrair o valor do débito no saldo (balance) do usuário.
 
+*Dica.: Você pode usar o método `user.transactions.push(transaction)` para adicionar um novo item no array de transações.*
+
 ## Relatórios
 
 - Crie uma função chamada `getHigherTransactionByType` que recebe como parâmetro o tipo de transação `credit/debit`, percorre as transações do usuário e retorna o **objeto** da transação de maior valor com aquele tipo:
