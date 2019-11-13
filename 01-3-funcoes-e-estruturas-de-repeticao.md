@@ -14,7 +14,7 @@ const usuarios = [
 ]
 ```
 
-Percorra a lista de usuários com uma estrutura de repetição imprimimndo em tela as informações dos usuários:
+Percorra a lista de usuários com uma estrutura de repetição imprimindo em tela as informações dos usuários:
 
 ```
 Carlos trabalha com HTML, CSS
