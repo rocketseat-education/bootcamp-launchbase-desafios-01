@@ -42,17 +42,6 @@ function getAverageTransactionValue() {
     return sum / user.transactions.length
 }
 
-function balance(transaction) {
-    let balance = 0
-    if (transaction.type === 'credit') {
-        balance = balance + transaction.value
-    } else {
-        balance = balance - transaction.value
-    }
-
-    return balance
-}
-
 function getTransactionsCount() {
     let count = {
         credit: 0,
