@@ -15,20 +15,16 @@ Crie um programa que armazena dados da empresa Rocketseat dentro de um objeto ch
   
 *Obs.: Para armazenar os dados de endereço da empresa você pode criar objetos intercalados, por exemplo:*
 
-```js
-const usuario = {
-  nome: 'Diego',
-  empresa: {
-    nome: 'Rocketseat'
-  },
+const empresa= { nome:'RocketSeat', cor:'roxo', foco:'programacao', endereco: Rua: 'guilherme gembala, numero:260,
 }
-```
 
 Imprima em tela utilizando `console.log` o nome da empresa e seu endereço no seguinte formato:
 
 ```
 A empresa Rocketseat está localizada em Rua Guilherme Gembala, 260
 ```
+
+console.log(`A empresa ${empresa.nome} esta localizada em ${empresa.endereco+ empresa.numero}
 
 *Obs. Para imprimir em tela utilize o formato de template strings, por exemplo*
 
@@ -44,11 +40,11 @@ Um programador pode trabalhar com várias tecnologias, por isso armazene essas t
 
 As tecnologias também devem ser objetos contendo `nome` e `especialidade`, use as tecnologias abaixo:
 
-```js
-{ nome: 'C++', especialidade: 'Desktop' }
-{ nome: 'Python', especialidade: 'Data Science' }
-{ nome: 'JavaScript', especialidade: 'Web/Mobile' }
-```
+const programador ={
+nome:'programador',
+idade: 27,
+tecnologias :['Js, Css, Html]
+}
 
 Por exemplo:
 
@@ -66,3 +62,4 @@ Imprima em tela o nome e especialidade da primeira tecnologia que o usuário uti
 ```
 O usuário Carlos tem 32 anos e usa a tecnologia C++ com especialidade em Desktop
 ```
+console.log(`O usuario ${programador.nome} tem ${programador.idade} e suas tecnologias sao ${programador.tecnologias[0]`
