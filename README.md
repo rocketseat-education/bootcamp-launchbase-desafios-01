@@ -35,7 +35,7 @@
 
 ## :calendar: Entrega
 
-Esses desafios **não precisa ser entregue** e não receberão correção, mas você pode ver o resultado dos [códigos do desafios aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluir os desafios, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+Esses desafios **não precisam ser entregues** e não receberão correção, mas você pode ver um exemplo de solução [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
 ## :memo: Licença
 

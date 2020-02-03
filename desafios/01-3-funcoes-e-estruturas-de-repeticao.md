@@ -132,7 +132,7 @@ Sicrano possui saldo NEGATIVO de -90.3
 
 ## :calendar: Entrega
 
-Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver o resultado do [código do desafio aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluir o desafio, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver um exemplo de solução [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
 ## :memo: Licença
 
