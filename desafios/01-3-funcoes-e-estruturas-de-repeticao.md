@@ -1,17 +1,49 @@
-# Desafio 01-3. Funções e estruturas de repetição
+<h1 align="center">
+    <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
+</h1>
 
-Desafios para fortalecer os conhecimentos obtidos até aqui.
+<h3 align="center">
+  Desafio 1-3: Funções e estruturas de repetição
+</h3>
 
-## Usuários e tecnologias
+<blockquote align="center">“Quer você acredite que consiga fazer uma coisa ou não, você está certo.”</blockquote>
+
+<p align="center">
+
+  <a href="https://rocketseat.com.br">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
+  </a>
+
+  <a href="LICENSE" >
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
+  </a>
+
+</p>
+
+<p align="center">
+  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+## :rocket: Sobre o desafio
+
+Desafios para fortalecer alguns conceitos, entre eles:
+
+- **Funções e métodos**;
+- **Estruturas de repetição**;
+- **Escopos**.
+
+### Usuários e tecnologias
 
 Crie um programa que armazena um array de usuários (objetos), cada usuário tem um `nome` e suas `tecnologias` (novo array), por exemplo:
 
 ```js
 const usuarios = [
-  { nome: 'Carlos', tecnologias: ['HTML', 'CSS'] },
-  { nome: 'Jasmine', tecnologias: ['JavaScript', 'CSS'] },
-  { nome: 'Tuane', tecnologias: ['HTML', 'Node.js'] }
-]
+  { nome: "Carlos", tecnologias: ["HTML", "CSS"] },
+  { nome: "Jasmine", tecnologias: ["JavaScript", "CSS"] },
+  { nome: "Tuane", tecnologias: ["HTML", "Node.js"] }
+];
 ```
 
 Percorra a lista de usuários com uma estrutura de repetição imprimindo em tela as informações dos usuários:
@@ -22,7 +54,7 @@ Jarmine trabalha com JavaScript, CSS
 Tuane trabalha com HTML, Node.js
 ```
 
-## Busca por tecnologia
+### Busca por tecnologia
 
 Baseado no desafio anterior, utilize a mesma lista de usuários construída.
 
@@ -41,15 +73,15 @@ Percorra o array de usuários e, para cada um, verifique se o mesmo trabalha com
 
 ```js
 for (let i = 0; i < usuarios.length; i++) {
-  const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuario[i])
+  const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuario[i]);
 
-  if(usuarioTrabalhaComCSS) {
-    console.log(`O usuário ${usuario[i].nome} trabalha com CSS`)
+  if (usuarioTrabalhaComCSS) {
+    console.log(`O usuário ${usuario[i].nome} trabalha com CSS`);
   }
 }
 ```
 
-## Soma de despesas e receitas
+### Soma de despesas e receitas
 
 Crie um programa que calcula a soma de receitas e despesas de usuários e no fim retorna o saldo (`receitas - despesas`).
 
@@ -58,29 +90,27 @@ Utilize o array de usuários abaixo:
 ```js
 const usuarios = [
   {
-    nome: 'Salvio',
+    nome: "Salvio",
     receitas: [115.3, 48.7, 98.3, 14.5],
     despesas: [85.3, 13.5, 19.9]
   },
   {
-    nome: 'Marcio',
+    nome: "Marcio",
     receitas: [24.6, 214.3, 45.3],
     despesas: [185.3, 12.1, 120.0]
   },
   {
-    nome: 'Lucia',
+    nome: "Lucia",
     receitas: [9.8, 120.3, 340.2, 45.3],
     despesas: [450.2, 29.9]
   }
-]
+];
 ```
 
 Percorra o array de usuários e para cada usuário chame uma função chamada `calculaSaldo` que recebe como parâmetro as receitas e despesas do usuário:
 
 ```js
-function calculaSaldo(receitas, despesas) {
-
-}
+function calculaSaldo(receitas, despesas) {}
 ```
 
 Crie uma segunda função que recebe como parâmetro um array de números e retorna a soma deles e use-a para calcular a soma de receitas e despesas dentro da função `calculaSaldo`:
@@ -99,3 +129,15 @@ No fim exiba todos usuários em telas, seu respectivo saldo e SE o saldo é POSI
 Fulano possui saldo POSITIVO de 43.3
 Sicrano possui saldo NEGATIVO de -90.3
 ```
+
+## :calendar: Entrega
+
+Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver o resultado do [código do desafio aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/tree/codigos). Após concluir o desafio, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
+
+---
+
+Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
