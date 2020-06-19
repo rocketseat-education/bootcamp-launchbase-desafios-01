@@ -73,7 +73,7 @@ Percorra o array de usuários e, para cada um, verifique se o mesmo trabalha com
 
 ```js
 for (let i = 0; i < usuarios.length; i++) {
-  const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuario[i]);
+  const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuarios[i]);
 
   if (usuarioTrabalhaComCSS) {
     console.log(`O usuário ${usuario[i].nome} trabalha com CSS`);
